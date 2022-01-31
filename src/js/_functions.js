@@ -1,7 +1,8 @@
 // Определение операционной системы на мобильных
 import { mobileCheck } from "./functions/mobile-check";
+import {navActiveLink} from './functions/nav';
 console.log(mobileCheck())
-
+navActiveLink();
 // Троттлинг функции (для ресайза, ввода в инпут, скролла и т.д.)
 // import { throttle } from './functions/throttle';
 // let yourFunc = () => { console.log('throttle') };
